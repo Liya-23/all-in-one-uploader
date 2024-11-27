@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/web/static/index.css">
+        <title>SA Migration</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Dashboard Uploads</h1>
+            </div>
+
+            <!-- Inline layout for upload and intro sections -->
+            <div class="inline">
+                <div class="left-side">
+                    <div class="upload-box">
+                        <label for="uploadFile">Upload File</label>
+                        <input type="file" id="uploadFile">
+                    </div>
+                </div>
+
+                <div class="right-side">
+                    <div class="intro-text-box">
+                        <label for="introText">Intro Text</label>
+                        <input type="text" id="introText">
+                    </div>
+
+                    <div class="checkbox-group">
+                        <div class="top-side">
+                            <label>
+                                <input type="checkbox" id="facebook"> Facebook
+                            </label>
+                            <label>
+                                <input type="checkbox" id="pinterest"> Pinterest
+                            </label>
+                        </div>
+
+                        <div class="bottom-side">
+                            <label>
+                                <input type="checkbox" id="linkedin"> LinkedIn
+                            </label>
+                            <label>
+                                <input type="checkbox" id="twitter"> X
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Text input box -->
+            <div class="text-box">
+                <label for="mainText">Text</label>
+                <textarea id="mainText" rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </div>
+    </body>
+</html>
